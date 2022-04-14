@@ -11,6 +11,7 @@ export const A = styled.a`
   border-radius: 5px;
   padding: auto;
   margin: 5px;
+
   &:hover {
     color: #fff;
     background-color: #0556f3;

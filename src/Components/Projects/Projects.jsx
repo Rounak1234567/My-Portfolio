@@ -25,7 +25,7 @@ const Projects = () => {
       project_name: "Apollo247 Clone",
       image: "https://www.linkpicture.com/q/apollo247.png",
       project_desc:
-        "Apollo247 is a complete healthcare site. It provides all medical facilites such as book an appointment with the doctor, book lab test, order medicines, and reading articles and blogs related to health and fitness",
+        "Apollo247 is a complete healthcare site. It provides all medical facilites such as book an appointment with the doctor, book lab test, order medicines, and reading articles and blogs related to health and fitness. Added data using JSON server, and stored it using local storage. Implemented add to cart functionality in order to buy medicine. User can delete medicine from the cart.",
       deploy_link: "https://apolloclone.netlify.app/",
       repo_link: "https://github.com/Rajan1397/Apollo_clone",
       tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
@@ -55,7 +55,7 @@ const Projects = () => {
       image:
         "https://github.com/aadityaneve/Portfolio/blob/master/public/ProjectImages/movie-app.png?raw=true",
       project_desc:
-        "A Movie platform that allows users to search and watch trailers of a wide variety of movies. This is a personal project.",
+        "A Movie platform that allows users to search and watch trailers of a wide variety of movies. This is a personal project. Implemented signin, login, dynamcially popup of movies in different categories, can see trailer and movie video if available in the database within the app. This is a complete MERN APP with both frontend and backend application.",
       deploy_link: "https://github.com/Rajan1397/movie_app",
       repo_link: "https://github.com/Rajan1397/movie_app",
       tech_stack: [
@@ -95,6 +95,7 @@ const Projects = () => {
                     style={{
                       margin: "20px",
                       display: "flex",
+
                       justifyContent: "space-between",
                     }}
                   >
