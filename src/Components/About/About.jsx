@@ -16,17 +16,17 @@ import { Container, H1 } from "../../SharedStyles/SharedStyles";
 const socialMediaLinks = [
   {
     id: 0,
-    link: "https://www.linkedin.com/in/rajan-kumar-368874148/",
+    link: "https://www.linkedin.com/in/rounak-mojumder/",
     icon: <FaLinkedin />,
   },
   {
     id: 1,
-    link: "https://github.com/Rajan1397",
+    link: "https://github.com/Rounak1234567",
     icon: <FaGithub />,
   },
   {
     id: 2,
-    link: "https://twitter.com/1397Rajan",
+    link: "https://twitter.com/mojumder_rounak",
     icon: <FaTwitter />,
   },
 ];
@@ -35,13 +35,13 @@ const About = () => {
     <Container className="about">
       <AboutDiv>
         <Column>
-          <Img src="./profilePic.jpeg" alt="my image" />
+          <Img src="https://media-exp1.licdn.com/dms/image/C4E03AQEmiiOQbRZ76w/profile-displayphoto-shrink_800_800/0/1627845032818?e=1651104000&v=beta&t=gTm874dQaFnUvS5qfAAZDDZl55G3O22gZU4LgPJ3_-Y" alt="my image" />
         </Column>
         <Column>
           <H1>About</H1>
           <AboutInfo>
             <AboutInfoP>
-              Rajan Kumar, a dedicated Full Stack Web developer based in Delhi,
+              Rounak Mojumder, a dedicated Full Stack Web developer based in West Bengal,
               with a specialized skill set that enables me to build robust web
               applications. I am adept in both front-end and back-end and have
               an eye for performance and accuracy.

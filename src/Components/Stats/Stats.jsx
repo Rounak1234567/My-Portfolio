@@ -32,7 +32,7 @@ const Stats = () => {
         </StatsCont>
       </StatsContCont>
       <img
-        src="https://ghchart.rshah.org/021F34/Rajan1397"
+        src="https://ghchart.rshah.org/021F34/Rounak1234567"
         alt="fdsdf"
         style={{ width: "80%", display: "block", margin: "auto" }}
       />

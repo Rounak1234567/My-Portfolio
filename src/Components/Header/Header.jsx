@@ -9,16 +9,16 @@ const Banner = () => {
     <Container className="home">
       <HeaderContent>
         <div>
-          <H1>Hi 👋 I'm Rajan Kumar</H1>
+          <H1>Hi 👋 I'm Rounak Mojumder</H1>
           <TypeWriterH1>
             <Typewriter
               options={{
                 strings: [
-                  "A Software Engineer",
-                  "A Problem Solver",
-                  "A Full Stack Developer",
+                  "I Love Coding",
+                  "I am a Problem Solver",
+                  "I am a Full Stack web Developer",
                 ],
-                pauseFor: 1500,
+                pauseFor: 100,
                 autoStart: true,
                 loop: true,
               }}
@@ -32,18 +32,19 @@ const Banner = () => {
           <HeaderButtons>
             <A
               target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/Rajan1397/Portfolio/raw/master/public/Rajan_Resume.pdf"
+              // rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1Rq2fWLKZ4HJBj4ljnZy0jjrGhNvox0em/view"
             >
               Resume
             </A>
+            
             &nbsp;&nbsp;&nbsp;
             <Link
               activeClass="active"
               to="projects"
               spy={true}
               smooth={true}
-              duration={300}
+              duration={100}
             >
               <A>Projects</A>
             </Link>

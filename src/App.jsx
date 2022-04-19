@@ -36,7 +36,7 @@ const themes = {
 };
 
 const App = () => {
-    const [currentTheme, setCurrentTheme] = React.useState('light');
+    const [currentTheme, setCurrentTheme] = React.useState('dark');
     const themeToggler = () => {
         currentTheme === 'light'
             ? setCurrentTheme('dark')

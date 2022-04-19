@@ -31,29 +31,29 @@ const footerData = [
   {
     id: 0,
     title: "Mobile",
-    display: "+91 9811656387",
-    link: "tel:+919811656387",
+    display: "+91 9832174604",
+    link: "tel:+919832174604",
     icon: <FaPhone style={{ color: "grey" }} className="commonIconsFooter" />,
   },
   {
     id: 1,
     title: "Email",
-    display: "rajnkumar.1397@gmail.com",
-    link: "mailto:rajnkumar.1397@gmail.com",
+    display: "riz.moj.msd97@gmail.com",
+    link: "mailto:riz.moj.msd97@gmail.com",
     icon: <SiGmail style={{ color: "grey" }} className="commonIconsFooter" />,
   },
   {
     id: 2,
     title: "Github",
     display: "Github",
-    link: "https://github.com/Rajan1397",
+    link: "https://github.com/Rounak1234567",
     icon: <FaGithub style={{ color: "grey" }} className="commonIconsFooter" />,
   },
   {
     id: 3,
     title: "LinkedIn",
     display: "LinkedIn",
-    link: "https://www.linkedin.com/in/rajan-kumar-368874148/",
+    link: "https://www.linkedin.com/in/rounak-mojumder/",
     icon: (
       <FaLinkedin style={{ color: "grey" }} className="commonIconsFooter" />
     ),
@@ -62,21 +62,13 @@ const footerData = [
     id: 4,
     title: "Twitter",
     display: "Twitter",
-    link: "https://twitter.com/1397Rajan",
+    link: "https://twitter.com/mojumder_rounak",
     icon: <FaTwitter style={{ color: "grey" }} className="commonIconsFooter" />,
   },
   {
     id: 5,
-    title: "Medium",
-    display: "Medium",
-    link: "https://medium.com/@rajnkumar.1397",
-    icon: <FaMedium style={{ color: "grey" }} className="commonIconsFooter" />,
-  },
-
-  {
-    id: 6,
     title: "Location",
-    display: "New-Delhi, India",
+    display: "Durgapur, West Bengal",
 
     icon: (
       <FaLocationArrow
