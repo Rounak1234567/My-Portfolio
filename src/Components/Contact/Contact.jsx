@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
 import {
@@ -12,19 +12,17 @@ import {
   LinksCont,
 } from "./Styles";
 import { Container, Common, H1 } from "../../SharedStyles/SharedStyles";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {
   FaPhone,
   FaGithub,
   FaLinkedin,
   FaTwitter,
-  FaHackerrank,
-  FaMedium,
   FaLocationArrow,
 } from "react-icons/fa";
 
-import { SiGmail, SiLeetcode } from "react-icons/si";
+import { SiGmail } from "react-icons/si";
 import { v4 as uuidv4 } from "uuid";
 
 const footerData = [

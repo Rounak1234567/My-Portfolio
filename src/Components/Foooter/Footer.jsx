@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../../SharedStyles/SharedStyles";
-import { FooterCont, A } from "./Styles";
+import { FooterCont } from "./Styles";
 
 const Footer = () => {
   return (

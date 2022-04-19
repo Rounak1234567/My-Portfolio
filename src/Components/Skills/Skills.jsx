@@ -9,7 +9,7 @@ import {
   FaServer,
   FaHubspot,
 } from "react-icons/fa";
-import { SiRedux, SiMongodb, SiCsharp, SiPostgresql } from "react-icons/si";
+import { SiRedux, SiMongodb } from "react-icons/si";
 import {
   SkillsContainer,
   Col,

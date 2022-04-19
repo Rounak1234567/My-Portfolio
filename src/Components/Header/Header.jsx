@@ -23,6 +23,7 @@ const Banner = () => {
                 loop: true,
               }}
             />
+            
           </TypeWriterH1>
           <P>
             An enthusiastic Full Stack Web Developer with a strong set of

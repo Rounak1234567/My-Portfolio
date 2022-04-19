@@ -11,9 +11,9 @@ import {
   BoxDiv,
 } from "./Styles";
 import { Container, Common, H1 } from "../../SharedStyles/SharedStyles";
-import { AiFillGithub } from "react-icons/ai";
+//import { AiFillGithub } from "react-icons/ai";
 import { FaHtml5, FaReact, FaJs, FaCss3 } from "react-icons/fa";
-import { SiMongodb, SiNodeDotJs, SiRedux, SiHeroku } from "react-icons/si";
+import { SiMongodb, SiHeroku } from "react-icons/si";
 // import { SiExpress, SiMaterialui } from 'react-icons/si/SiExpress';
 
 import { v4 as uuidv4 } from "uuid";
