@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLink, FaNodeJs } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 
 import {
   ProjectDiv,
@@ -22,51 +22,60 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      project_name: "Apollo247 Clone",
-      image: "https://www.linkpicture.com/q/apollo247.png",
+      project_name: "AdRENTure",
+      image: "https://i.ibb.co/CmwkX83/Home-2.png",
       project_desc:
-        "Apollo247 is a complete healthcare site. It provides all medical facilites such as book an appointment with the doctor, book lab test, order medicines, and reading articles and blogs related to health and fitness. Added data using JSON server, and stored it using local storage. Implemented add to cart functionality in order to buy medicine. User can delete medicine from the cart.",
-      deploy_link: "https://apolloclone.netlify.app/",
-      repo_link: "https://github.com/Rajan1397/Apollo_clone",
-      tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
-    },
-    {
-      id: 3,
-      project_name: "Amazon Prime Videos",
-      image: "https://www.linkpicture.com/q/primeVideos.png",
-      project_desc:
-        "Prime Videos is an American subscription video on demand platform. We have use TMDB API to fetch all the data, and populate it dynamcially on the screen. Implemented signin, login, dynamcially popup of movies in different categories, can see trailer and movie video if available in the database within the app.",
-      deploy_link: "https://amazonprime-clone.netlify.app/",
-      repo_link: "https://github.com/Rajan1397/movie_app",
+        "This is a full stack project, I have worked in both frontend and backend. It is a car renting website, where you can hire cars for few hours or few days with or without driver. This is a solo project and I learned a lot of new things while creating this project.",
+      deploy_link: "https://adrenture.vercel.app/",
+      repo_link: "https://github.com/Rounak1234567/AdRENTure-frontend",
       tech_stack: [
         <FaReact />,
         <FaNodeJs />,
         <SiMongodb />,
-        <FaJs />,
         <SiHeroku />,
         <FaHtml5 />,
         <FaCss3 />,
       ],
+      video_link:"https://drive.google.com/file/d/1cnyFc6laHOwIodlSkoGl5I25vo3vKcTo/view?usp=sharing",
+    },
+    {
+      id: 3,
+      project_name: "Dunzo Clone",
+      image: "https://i.ibb.co/cb8vPNr/Screenshot-83.png",
+      project_desc:
+        "This is a group project which we completed the entire frontend in a span of 5 days then we worked on the backend and completed that in another 5 days. Here we have trided to clone the Dunzo website. The UI looks almost simillar to the original website",
+      deploy_link: "https://awesome-booth-917140.netlify.app/",
+      repo_link: "https://github.com/Rounak1234567/Dunzo",
+      tech_stack: [
+        
+        <FaNodeJs />,
+        <SiMongodb />,
+        <FaJs />,
+        <FaHtml5 />,
+        <FaCss3 />,
+      ],
+      video_link:"https://drive.google.com/file/d/1Ry3GD6iD1pGSGH_2msJDNMPoBj2R1pVh/view?usp=sharing",
     },
 
     {
       id: 2,
-      project_name: "Movie-App",
+      project_name: "Tic Tac Toe",
       image:
-        "https://github.com/aadityaneve/Portfolio/blob/master/public/ProjectImages/movie-app.png?raw=true",
+        "https://i.ibb.co/g3R0dVf/Screenshot-82.png",
       project_desc:
-        "A Movie platform that allows users to search and watch trailers of a wide variety of movies. This is a personal project. Implemented signin, login, dynamcially popup of movies in different categories, can see trailer and movie video if available in the database within the app. This is a complete MERN APP with both frontend and backend application.",
-      deploy_link: "https://github.com/Rajan1397/movie_app",
-      repo_link: "https://github.com/Rajan1397/movie_app",
+        "This is a react implementation of the famous Tic Tac Toe game. It can be played by 2 players X and O, whoever gets 3 consecutive X or O wins the game. This is a sole project where I got clear concept about the different hooks in React.",
+      deploy_link: "https://tic-tac-toe-by-rounak.netlify.app/",
+      repo_link: "https://github.com/Rounak1234567/Tic-Tac-Toe-game",
       tech_stack: [
         <FaReact />,
-        <FaNodeJs />,
-        <SiMongodb />,
+    
+      
         <FaJs />,
-        <SiHeroku />,
+        
         <FaHtml5 />,
         <FaCss3 />,
       ],
+      video_link:"https://drive.google.com/file/d/1GXBpg_wQ0hzulMgOJ15fzYzvTS1OWD0n/view?usp=sharing"
     },
   ];
 
@@ -110,14 +119,25 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaGithub /> Code
+                    {/* <FaGithub size={"50px"}/> Code */}
+                    <button className="pro_btn">Code</button>
+                    
                   </A>
                   <A
                     href={item.deploy_link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaLink /> Demo
+                    {/* <FaLink /> Demo */}
+                    <button className="pro_btn">Link</button>
+                  </A>
+                  <A
+                    href={item.video_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {/* <FaLink /> Demo */}
+                    <button className="pro_btn">Video</button>
                   </A>
                 </div>
               </ServiceBox>
