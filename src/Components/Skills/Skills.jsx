@@ -13,6 +13,7 @@ import { SiRedux, SiMongodb } from "react-icons/si";
 import {
   SkillsContainer,
   Col,
+  Colb,
   BoxDiv,
   SkillBox,
   SkillBoxText,
@@ -102,7 +103,7 @@ const Skills = () => {
         <Common>
           <H1>Proficiencies</H1>
         </Common>
-        <Col id="proficiencies">
+        <Colb>
           {proficiencies.map((item) => (
             <BoxDiv key={item.id}>
               <SkillBox>
@@ -111,7 +112,7 @@ const Skills = () => {
               </SkillBox>
             </BoxDiv>
           ))}
-        </Col>
+        </Colb>
       </SkillsContainer>
     </Container>
   );

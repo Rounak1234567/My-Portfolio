@@ -20,6 +20,7 @@ export const H1 = styled.h1`
   color: ${(props) => props.theme.fontColorPrimary};
 `;
 export const Col = styled.div`
+  text-align: center; 
   display: grid;
   grid-template-rows: 1fr 1fr;
   height: fit-content;
@@ -27,11 +28,28 @@ export const Col = styled.div`
   padding-left: 70px;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: space-center;
+  justify-content: center;
+  align-items:center;
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr 1fr;
     padding-left: 8px;
     width:100%
+  }
+`;
+
+export const Colb = styled.div`
+  text-align: center; 
+  display:flex;
+  height: fit-content;
+  
+  padding-left: 70px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  @media screen and (max-width: 480px) {
+    display:flex;
+    padding-left:0px;
   }
 `;
 
