@@ -16,7 +16,7 @@ const Banner = () => {
                 strings: [
                   "I Love Coding",
                   "I am a Problem Solver",
-                  "I am a Full Stack web Developer",
+                  "I am a Full Stack Web Developer",
                 ],
                 pauseFor: 100,
                 autoStart: true,

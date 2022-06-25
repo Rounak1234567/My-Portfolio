@@ -28,11 +28,19 @@ export const Col = styled.div`
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-center;
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 8px;
+    width:100%
+  }
 `;
 
 export const BoxDiv = styled.div`
   text-align: center;
   width: 220px;
+  @media screen and (max-width: 480px) {
+    width: 180px;
+  }
 `;
 
 export const SkillBox = styled.div`
@@ -45,6 +53,10 @@ export const SkillBox = styled.div`
   &:hover {
     background: ${(props) => props.theme.commonBorder};
     color: ${(props) => props.theme.fontColorHeaderHover};
+  }
+  @media screen and (max-width: 480px) {
+    margin: 5px;
+    padding: 10px;
   }
 `;
 
