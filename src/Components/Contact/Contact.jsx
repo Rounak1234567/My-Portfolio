@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import React, { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 
 import {
   ContactContainer,
@@ -79,23 +79,26 @@ const footerData = [
 
 const Contact = () => {
   const [emailSent, setEmailSent] = useState(false);
+  const form = useRef();
 
   const handleSend = async (e) => {
     e.preventDefault();
 
     const { name, subject, email, message } = e.target;
 
+    console.log(name.value, email.value)
+
     emailjs
       .send(
-        "service_73nxajb",
-        "template_g8iqlva",
+        "service_fhvseid",
+        "template_n0khwwl",
         {
           name: name.value,
           email: email.value,
           subject: subject.value,
           message: message.value,
         },
-        "user_EnJXFXSrCu2oExDbUCpNz"
+        "PdDo_5XQNWis1y9j7"
       )
       .then(
         function (response) {
@@ -115,6 +118,15 @@ const Contact = () => {
 
     e.target.reset();
   };
+
+  //1E59BD3DADAE8A518C491269F93221C3674B6C0F93DC25E5BFA99AA76A8AE12972099A01148B7BDF729BD8341701FD7B
+
+  //mojumderrounak97@gmail.com
+  //81DBDA3CB07379FDF74AF93CACB1E06CAA34
+  //smtp.elasticemail.com
+  //2525
+
+  //ebd2a9dc-bc03-4e53-b2ed-4f9f7f70d768
   return (
     <Container className="contact">
       <Common>
@@ -122,7 +134,7 @@ const Contact = () => {
       </Common>
       <ContactContainer>
         <Column>
-          <ContactForm onSubmit={handleSend}>
+          <ContactForm ref={form} onSubmit={handleSend}>
             <InputInput1 required name="name" type="text" placeholder="Name" />
             <InputInput1
               required
