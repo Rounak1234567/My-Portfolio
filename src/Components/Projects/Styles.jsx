@@ -1,23 +1,22 @@
 import styled from "styled-components";
 
 export const A = styled.a`
-  outline: none;
-  border: none;
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  background-color: ${(props) => props.theme.fontColorPrimary};
-  color: ${(props) => props.theme.cardColor};
-  border-radius: 5px;
-  padding: auto;
-  margin: 5px;
-
-  &:hover {
+    outline: none;
     color: #fff;
-    background-color: #0556f3;
+    text-decoration: none;
+    margin: 5px;
     border: 1px solid rgb(211, 220, 230);
-  }
+    background-color: ${(props) => props.theme.fontColorPrimary};
+    color: ${(props) => props.theme.cardColor};
+    border-radius: 5px 5px 5px 5px;
+    padding: 13px 40px;
+    &:hover {
+        color: #fff;
+        background-color: #0556f3;
+        border: 1px solid rgb(211, 220, 230);
+    }
 `;
+
 
 export const BoxDiv = styled.div`
   text-align: center;

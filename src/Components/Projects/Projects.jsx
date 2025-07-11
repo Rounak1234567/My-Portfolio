@@ -120,8 +120,8 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     {/* <FaGithub size={"50px"}/> Code */}
-                    <button className="pro_btn">Code</button>
-                    
+                    {/* <button className="pro_btn">Code</button> */}
+                    Code
                   </A>
                   <A
                     href={item.deploy_link}
@@ -129,7 +129,8 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     {/* <FaLink /> Demo */}
-                    <button className="pro_btn">Link</button>
+                    {/* <button className="pro_btn">Link</button> */}
+                    Link
                   </A>
                   <A
                     href={item.video_link}
@@ -137,7 +138,8 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     {/* <FaLink /> Demo */}
-                    <button className="pro_btn">Video</button>
+                    {/* <button className="pro_btn">Video</button> */}
+                    Video
                   </A>
                 </div>
               </ServiceBox>

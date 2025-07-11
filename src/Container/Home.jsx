@@ -27,7 +27,7 @@ const Home = ({ currentTheme, themeToggler }) => {
             <About />
             <Skills />
             <Projects />
-            <Stats />
+            {/* <Stats /> */}
             <Contact />
             <Footer />
         </div>

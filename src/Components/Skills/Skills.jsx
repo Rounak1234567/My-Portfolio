@@ -9,7 +9,7 @@ import {
   FaServer,
   FaHubspot,
 } from "react-icons/fa";
-import { SiRedux, SiMongodb } from "react-icons/si";
+import { SiRedux, SiMongodb, SiNextdotjs, SiTypescript   } from "react-icons/si";
 import {
   SkillsContainer,
   Col,
@@ -35,11 +35,11 @@ const Skills = () => {
       project_name: "React JS",
       project_desc: <FaReact className="commonIcons" />,
     },
-    {
-      id: 2,
-      project_name: "Redux",
-      project_desc: <SiRedux className="commonIcons" />,
-    },
+    // {
+    //   id: 2,
+    //   project_name: "Redux",
+    //   project_desc: <SiRedux className="commonIcons" />,
+    // },
     {
       id: 3,
       project_name: "HTML",
@@ -60,11 +60,21 @@ const Skills = () => {
       project_name: "Express",
       project_desc: <FaNodeJs className="commonIcons" />,
     },
+    // {
+    //   id: 7,
+    //   project_name: "Mongo DB",
+    //   project_desc: <SiMongodb className="commonIcons" />,
+    // },
     {
-      id: 7,
-      project_name: "Mongo DB",
-      project_desc: <SiMongodb className="commonIcons" />,
+      id: 8,
+      project_name: "Next JS",
+      project_desc: <SiNextdotjs className="commonIcons" />,
     },
+    {
+      id: 9,
+      project_name: "Typescript",
+      project_desc: <SiTypescript className="commonIcons" />,
+    }
   ];
   const proficiencies = [
     {
