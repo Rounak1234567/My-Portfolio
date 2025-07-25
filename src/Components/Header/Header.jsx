@@ -34,7 +34,7 @@ const Banner = () => {
             <A
               target="_blank"
               // rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1LpA3t7iocdlQxX_NOTPHN5n5S5t5hM1b/view?usp=sharing"
+              href="https://drive.google.com/file/d/1i3XhY6XJZW-pNtgyUa7jLp353c5BHjej/view?usp=sharing"
             >
               Resume
             </A>
